@@ -1,3 +1,8 @@
+body{
+    font-family: Arial serif;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
 .grid-container {
     display: grid;
 }
@@ -44,9 +49,11 @@ header{
 .rep-text{
     grid-column:3/7;
     
+    
 }
 .rep-text, p, h1{
     color:#00283c;
+    line-height: 1.5rem;
 }
 .card{
     width:100%;
