@@ -33,3 +33,23 @@ header{
     display: grid;
     grid-template-columns: fit-content(30%) auto;
 }
+
+
+.mini-grid{
+    display: grid;
+grid-template-columns: repeat(12, 1fr);
+margin-top:55px;
+}
+.rep-text{
+    grid-column:5/9;
+}
+.image-left{
+    grid-column:5/7;
+}
+.image-right{
+    grid-column:8/9;;
+}
+.footer{
+    background-color:#252525;
+    color:white;
+}
