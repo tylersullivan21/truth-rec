@@ -1,19 +1,21 @@
 .grid-container {
-    display:grid;
-    
+    display: grid;
+
     grid-template-columns: repeat(12, 1fr);
 }
 
-.nav{
+.nav {
     grid-row: 1;
     grid-column: 1/13;
-    
+
 }
+
 .hero {
     grid-column: 3/11;
     grid-row: 2;
 }
-.main{
+
+.main {
     grid-column: 3/11;
 }
 
@@ -21,9 +23,23 @@
     grid-column: 3/11;
 }
 
-.history {
-    grid-column:4/9;
-}
-.hero-img{
+
+.hero-img {
     width: 100%;
+}
+
+.img-left {
+    grid-column: 4/6;
+    
+}
+
+.img-center {
+    grid-column: 7/8;
+}
+
+.img-right {
+    grid-column: 9/10;
+}
+.history-text{
+    grid-column: 1/13;
 }
