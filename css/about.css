@@ -42,50 +42,9 @@ header{
     display: grid;
     grid-template-columns: fit-content(30%) auto;
 }
-.hero {
-    grid-column: 3/11;
-    grid-row: 2;
-}
-
-.main {
-    grid-column: 4/10;
-}
-.description {
-    margin-left: 35px;
-    line-height: 1.5rem;
-}
-
-.tagline {
-    grid-column: 1/13;
-color: white;
-background-color: #9F895d;
-display: grid;
-grid-template-columns: repeat(12, 1fr);
-}
-.explore {
-    grid-column: 3/6;
-}
 
 
-.hero-img {
-    width: 100%;
-}
 
-.img-left {
-    grid-column: 4/6;
-    
-}
-
-.img-center {
-    grid-column: 7/8;
-}
-
-.img-right {
-    grid-column: 9/10;
-}
-.history-text{
-    grid-column: 1/13;
-}
 
 footer {
  
