@@ -42,15 +42,16 @@ margin-top:55px;
 }
 .rep-text{
     grid-column:5/9;
+    
+}
+.rep-text, p, h1{
+    color:#00283c;
 }
 .image-left{
     grid-column:5/7;
 }
 .image-right{
     grid-column:8/9;;
-}
-.footer{
-  
 }
 
 .footer {
@@ -62,3 +63,4 @@ margin-top:55px;
     color:white;
     text-align: center;
     height:50px;
+}
