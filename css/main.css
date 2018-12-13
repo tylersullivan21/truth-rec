@@ -1,20 +1,29 @@
 .grid-container {
-    display: grid;
+    display:grid;
+    
     grid-template-columns: repeat(12, 1fr);
 }
 
-#nav {
+.nav{
+    grid-row: 1;
     grid-column: 1/13;
     
 }
-#hero {
-    grid-column: 4/10;
-    grid-row: 1;
+.hero {
+    grid-column: 3/11;
+    grid-row: 2;
 }
-#main{
-    grid-column: 1/13;
+.main{
+    grid-column: 3/11;
 }
 
+.tagline {
+    grid-column: 3/11;
+}
+
+.history {
+    grid-column:4/9;
+}
 .hero-img{
     width: 100%;
 }
