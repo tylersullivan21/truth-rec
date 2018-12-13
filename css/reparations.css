@@ -37,21 +37,25 @@ header{
 
 .mini-grid{
     display: grid;
-grid-template-columns: repeat(12, 1fr);
-margin-top:55px;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 55px;
+    grid-gap: 15px;
 }
 .rep-text{
-    grid-column:5/9;
+    grid-column:3/7;
     
 }
 .rep-text, p, h1{
     color:#00283c;
 }
+.card{
+    width:100%;
+}
 .image-left{
-    grid-column:5/7;
+    grid-column:3/5;
 }
 .image-right{
-    grid-column:8/9;;
+    grid-column:5/7;
 }
 
 .footer {
