@@ -88,12 +88,26 @@ grid-template-columns: repeat(12, 1fr);
 }
 
 footer {
- left:0;
- right:0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    right:0;
+    left:0;
     position: absolute;
     width: 100%;
     background-color:#252525;
     color:white;
-    text-align: center;
+  
     height:50px;
+    align-content: center;
+}
+
+.visit {
+    grid-column: 2/3;
+    
+}
+
+.alachua-info{
+    font-size: 15px;
+    color:white;
+   
 }

@@ -38,7 +38,7 @@ ul li a{
 
 header{
     background-color: #00283C;
-    display: grid;
+
     grid-template-columns: fit-content(30%) auto;
 }
 
@@ -49,17 +49,42 @@ margin-bottom: 50px;
 line-height: 2.0rem;
 }
 
-p{
-    margin-top: 0px;
+h3{
+    font-size: 24px;
 }
-footer {
+
+.what{
+   margin-bottom: 50px;
+}
+
+.why{
+    margin-bottom: 50px;
+ }
+ .how-will{
+    margin-bottom: 50px;
+ }
+
+ footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     right:0;
-   
- left:0;
+    left:0;
     position: absolute;
     width: 100%;
     background-color:#252525;
     color:white;
-    text-align: center;
+  
     height:50px;
+    align-content: center;
+}
+
+.visit {
+    grid-column: 2/3;
+    
+}
+
+.alachua-info{
+    font-size: 15px;
+    color:white;
+   
 }
