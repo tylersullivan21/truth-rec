@@ -106,7 +106,7 @@ input[type=text], input[type=email], select, textarea {
   
   input[type=submit]:hover {
       background-color: #00283C;
-      background: linear-gradient(#00283C,##00283C);
+      background: linear-gradient(#00283C,#00283C);
       border-color: #00283C;
       text-decoration: none;
   }
