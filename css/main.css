@@ -73,8 +73,11 @@ grid-template-columns: repeat(12, 1fr);
     color: white;
     grid-template-columns: repeat(12,1fr);
     background-color: #00283C;
-    height: 600px;
+    height: 750px;
     align-content: center;
+}
+.place-img{
+    width:100%;
 }
 
 .img-left{
@@ -88,8 +91,15 @@ grid-template-columns: repeat(12, 1fr);
     grid-column: 9/11;
 }
 .history-text{
-    grid-column:4/10 ;
+   font-size: 25px;
+    line-height: 2.5em;
+    grid-column:3/11;
     margin-top: 40px;
+    border-top: 1px #9F895D solid;
+    border-bottom: 1px #9F895D solid;
+}
+.franklin {
+    grid-column:9/11;
 }
 .explore {
     grid-column: 2/6;
