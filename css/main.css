@@ -16,7 +16,7 @@ a {
 }
 ul {
     list-style-type: none;
-    float: right;
+ 
 }
 ul li {
     display: inline;
@@ -38,13 +38,17 @@ ul li a{
 
 header{
     background-color: #00283C;
-
     display: grid;
-    grid-template-columns: fit-content(30%) auto;
+    
+    
 }
 .hero {
-    grid-column: 3/11;
+    grid-column: 5/9;
     grid-row: 2;
+  
+}
+.hero-img{
+    width:100%;
 }
 
 .main {
@@ -56,35 +60,39 @@ header{
 }
 
 .tagline {
-    grid-column: 1/13;
+ grid-column: 1/13;
 color: white;
 background-color: #9F895d;
 display: grid;
 grid-template-columns: repeat(12, 1fr);
 }
-.explore {
-    grid-column: 2/6;
+
+/*CODE FOR HISTORY SECTION */   
+#history-section {
+    display:grid;
+    color: white;
+    grid-template-columns: repeat(12,1fr);
+    background-color: #00283C;
+    height: 600px;
+    align-content: center;
 }
 
+.img-left{
+    grid-column: 3/5;
 
-.hero-img {
-    width: 100%;
 }
-
-.img-left {
-    grid-column: 4/6;
-    
+.img-center{
+    grid-column: 6/8;
 }
-
-.img-center {
-    grid-column: 7/8;
-}
-
-.img-right {
-    grid-column: 9/10;
+.img-right{
+    grid-column: 9/11;
 }
 .history-text{
-    grid-column: 1/13;
+    grid-column:4/10 ;
+    margin-top: 40px;
+}
+.explore {
+    grid-column: 2/6;
 }
 
 footer {
@@ -103,6 +111,7 @@ footer {
 
 .visit {
     grid-column: 2/6;
+    margin: 0;
     
 }
 
