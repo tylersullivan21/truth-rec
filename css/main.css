@@ -47,7 +47,7 @@ header{
     
 }
 .hero {
-    grid-column: 5/9;
+    grid-column: 3/11;
     grid-row: 2;
   
 }
@@ -56,9 +56,10 @@ header{
 }
 
 .main {
-    grid-column: 4/10;
+    grid-column: 3/11;
 }
 .description {
+    text-align: justify;
     margin-left: 35px;
     line-height: 1.5rem;
 }
@@ -95,7 +96,7 @@ grid-template-columns: repeat(12, 1fr);
     grid-column: 9/11;
 }
 .history-text{
-   font-size: 25px;
+    text-align: justify;
     line-height: 2.5em;
     grid-column:3/11;
     margin-top: 40px;
