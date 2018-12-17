@@ -11,6 +11,9 @@ body{
 .nav {
     grid-column:1/13;
 }
+nav {
+    grid-column: 4/7;
+}
 
 a {
     text-decoration: none;

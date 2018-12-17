@@ -8,6 +8,10 @@ body{
     display: grid;
 }
 
+nav {
+    grid-column: 4/7;
+}
+
 a {
     text-decoration: none;
 }
