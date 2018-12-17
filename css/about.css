@@ -44,7 +44,8 @@ header{
     grid-template-columns: fit-content(30%) auto;
 }
 .main-content {
-grid-column: 3/11;
+    text-align: justify;
+grid-column: 4/10;
 margin-top: 50px;
 margin-bottom: 50px;
 line-height: 2.0rem;
