@@ -65,13 +65,28 @@ header{
     grid-column:5/7;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    right:0;
+    left:0;
+    bottom:0;
+    position: absolute;
     width: 100%;
     background-color:#252525;
     color:white;
-    text-align: center;
+  
     height:50px;
+    align-content: center;
+}
+
+.visit {
+    grid-column: 2/6;
+    
+}
+
+.alachua-info{
+    font-size: 15px;
+    color:white;
+   
 }

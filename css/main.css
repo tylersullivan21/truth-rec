@@ -63,7 +63,7 @@ display: grid;
 grid-template-columns: repeat(12, 1fr);
 }
 .explore {
-    grid-column: 3/6;
+    grid-column: 2/6;
 }
 
 
@@ -102,7 +102,7 @@ footer {
 }
 
 .visit {
-    grid-column: 2/3;
+    grid-column: 2/6;
     
 }
 
