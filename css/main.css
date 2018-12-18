@@ -114,6 +114,10 @@ grid-template-columns: repeat(12, 1fr);
     grid-column: 2/6;
 }
 
+a img{
+    width: 100%;
+}
+
 footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -139,3 +143,4 @@ footer {
     color:white;
    
 }
+
