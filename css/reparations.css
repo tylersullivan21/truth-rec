@@ -75,7 +75,6 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     right:0;
     left:0;
-    bottom:0;
     position: absolute;
     width: 100%;
     background-color:#252525;
