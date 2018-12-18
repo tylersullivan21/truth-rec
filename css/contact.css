@@ -13,7 +13,7 @@ body{
 }
 
 nav {
-    grid-column: 4/7;
+    grid-column: 4/6;
 }
 
 a {
@@ -41,6 +41,10 @@ ul li a{
     
 }
 
+.menu {
+    padding: 10px;
+    font-size: 20px;
+}
 header{
     background-color: #00283C;
     display: grid;

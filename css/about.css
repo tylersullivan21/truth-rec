@@ -12,9 +12,8 @@ body{
     grid-column:1/13;
 }
 nav {
-    grid-column: 4/7;
+    grid-column: 4/6;
 }
-
 a {
     text-decoration: none;
 }
@@ -38,6 +37,11 @@ ul li a{
     color: #fff;
     padding: 15px;
     
+}
+
+.menu {
+    padding: 10px;
+    font-size: 20px;
 }
 
 header{
@@ -79,6 +83,7 @@ h3{
     grid-template-columns: repeat(12, 1fr);
     right:0;
     left:0;
+
     position: absolute;
     width: 100%;
     background-color:#252525;

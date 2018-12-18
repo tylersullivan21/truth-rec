@@ -7,9 +7,12 @@ body{
 .grid-container {
     display: grid;
 }
+.nav {
+    grid-column:1/13;
+}
 
 nav {
-    grid-column: 4/7;
+    grid-column: 1/2;
 }
 
 a {
@@ -37,11 +40,15 @@ ul li a{
     
 }
 
+.menu {
+    padding: 10px;
+    font-size: 20px;
+}
+
 header{
     background-color: #00283C;
-
     display: grid;
-    grid-template-columns: fit-content(30%) auto;
+
 }
 
 

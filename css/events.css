@@ -12,7 +12,7 @@ body{
     grid-column:1/13;
 }
 nav {
-    grid-column: 4/7;
+    grid-column: 4/6;
 }
 
 a {
@@ -38,6 +38,11 @@ ul li a{
     color: #fff;
     padding: 15px;
     
+}
+
+.menu {
+    padding: 10px;
+    font-size: 20px;
 }
 
 header{
