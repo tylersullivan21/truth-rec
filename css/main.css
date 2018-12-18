@@ -79,6 +79,7 @@ grid-template-columns: repeat(12, 1fr);
 /*CODE FOR HISTORY SECTION */   
 #history-section {
     display:grid;
+    grid-gap: 10px;
     color: white;
     grid-template-columns: repeat(12,1fr);
     background-color: #00283C;
@@ -90,14 +91,14 @@ grid-template-columns: repeat(12, 1fr);
 }
 
 .img-left{
-    grid-column: 3/5;
+    grid-column: 4/6;
 
 }
 .img-center{
     grid-column: 6/8;
 }
 .img-right{
-    grid-column: 9/11;
+    grid-column: 8/10;
 }
 .history-text{
 
