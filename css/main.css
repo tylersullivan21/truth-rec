@@ -8,12 +8,22 @@ body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
-.nav {
-    grid-column:1/13;
-    border-bottom: 3px #9F895D solid;
+
+.nav{
+    background-color: #00283C;
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr);   
+    align-items: center;
 }
-nav {
-    grid-column: 4/6;
+.logo{
+    grid-column: 3/5;
+  
+}
+.elements {
+    grid-column: 6/12;
+}
+.truth-img{
+    max-width: 300px;
 }
 
 a {
@@ -46,14 +56,9 @@ ul li a{
     font-size: 20px;
 }
 
-header{
-    background-color: #00283C;
-    display: grid; 
-    
-}
 .hero {
     grid-column: 3/11;
-    grid-row: 2;
+  
   
 }
 .hero-img{
