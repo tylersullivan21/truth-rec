@@ -4,9 +4,15 @@ body{
     margin: 0;
   
 }
-.grid-container {
+.img-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    background-color: #252525;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  
 }
 
 .nav{
@@ -23,7 +29,7 @@ body{
     grid-column: 6/12;
 }
 .truth-img{
-    max-width: 300px;
+    width: 100%;
 }
 
 a {
@@ -58,8 +64,6 @@ ul li a{
 
 .hero {
     grid-column: 3/11;
-  
-  
 }
 .hero-img{
     width:100%;
