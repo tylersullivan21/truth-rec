@@ -19,11 +19,23 @@ body{
     background-color: #00283C;
     display: grid; 
     grid-template-columns: repeat(12, 1fr);   
-    align-items: center;
+ 
+    min-height: 87px;
 }
 .logo{
     grid-column: 3/5;
-  
+    
+}
+
+
+.subnav {
+    display: grid;
+    background:black;
+    min-height: 47px;
+    border-top: 3px solid #252525;
+}
+#sub {
+    grid-column: 1/13;
 }
 .elements {
     grid-column: 6/12;
@@ -64,13 +76,17 @@ ul li a{
 
 .hero {
     grid-column: 3/11;
+    margin: 0;
 }
 .hero-img{
+    display: block;
     width:100%;
+    margin-bottom: 0;
 }
 
 .main {
     grid-column: 4/10;
+
 }
 .description {
     margin-left: 35px;
