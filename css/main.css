@@ -6,7 +6,7 @@ body{
 }
 .img-container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: 15% auto 15%;
     background-color: #252525;
 }
 .main-container {
@@ -18,9 +18,9 @@ body{
 .nav{
     background-color: #00283C;
     display: grid; 
+    position: relative;
     grid-template-columns: repeat(12, 1fr);   
- 
-    min-height: 87px;
+    grid-template-rows: 87px;  
 }
 .logo{
     grid-column: 3/5;
@@ -28,17 +28,13 @@ body{
 }
 
 
-.subnav {
-    display: grid;
-    background:black;
-    min-height: 47px;
-    border-top: 3px solid #252525;
-}
-#sub {
-    grid-column: 1/13;
-}
+
+
 .elements {
+    font-size: 24px;
     grid-column: 6/12;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .truth-img{
     width: 100%;
@@ -54,15 +50,7 @@ ul {
 ul li {
     display: inline;
 }
-#logo {
-    padding: 15px;
-    margin-left: 15px;
-    background-color: #f3f1c7;
-    color: #298383;
-    text-align: center;
-    font-weight: bold;
-    display: inline-block;
-}
+
 ul li a{
     color: #fff;
     padding: 15px;
@@ -75,7 +63,7 @@ ul li a{
 }
 
 .hero {
-    grid-column: 3/11;
+    grid-column: 2/3;
     margin: 0;
 }
 .hero-img{
