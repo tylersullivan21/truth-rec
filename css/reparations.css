@@ -10,6 +10,8 @@ body{
     grid-template-columns: repeat(12, 1fr);
   
 }
+
+/* CSS FOR NAVBAR AND SUBNAV BAR*/
 .nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -41,10 +43,10 @@ a img {
 
 }
 .sub-elements {
-    grid-column: 7/10;
-    display: inline;
+    grid-column: 6/10; 
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 25px;
 }
 a {
     text-decoration: none;
@@ -63,12 +65,7 @@ ul li a{
     
 }
 
-.menu {
-    padding: 10px;
-    font-size: 20px;
-}
-
-
+/* CODE FOR NAV AND SUB ENDS HERE.*/
 
 .mini-grid{
     display: grid;
