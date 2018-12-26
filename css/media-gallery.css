@@ -66,6 +66,57 @@ ul li a{
     
 }
 
+.media-title{
+    grid-column: 4/10;
+}
+.video-title{
+    grid-column: 4/10;
+}
+
+/* video cards css starts here*/
+
+.card-container {
+    display: grid;
+    padding: 1rem;
+   grid-template-columns: repeat(12,1fr);
+    grid-gap:20px;
+}
+.resource {
+    width: 100%;
+}
+
+.shadow{
+    grid-column: 4/6;
+    box-shadow:3px 0px#ccc;
+}
+.shadow-text {
+    padding: 5px;
+}
+
+.bo-diddley{
+    grid-column: 6/8;
+    box-shadow:3px  5px 6px #ccc;
+}
+
+.baseball{
+    grid-column: 8/10;
+    box-shadow:3px  5px 6px #ccc;
+}
+.verdell-washington{
+    grid-row:2;
+    grid-column: 4/6;
+    box-shadow:3px  5px 6px #ccc;
+}
+.freedom-ride{
+    grid-row:2;
+    grid-column: 6/8;;
+    box-shadow:3px  5px 6px #ccc;
+}
+.cotton-club {
+    grid-row:2;
+    grid-column: 8/10;;
+    box-shadow:3px  5px 6px #ccc;
+}
 
 
 
@@ -77,7 +128,7 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     right:0;
     left:0;
-    bottom: 0;
+
     position: absolute;
     width: 100%;
     background-color:#252525;
@@ -97,3 +148,7 @@ footer {
     color:white;
    
 }
+
+
+
+
