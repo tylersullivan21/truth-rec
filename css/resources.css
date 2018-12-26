@@ -24,7 +24,7 @@ body{
 .logo{
     grid-column: 3/5;
 }
-a img {
+a .logo-img {
    position: relative;
     max-height: 134px;
 }
@@ -70,6 +70,10 @@ ul li a{
     grid-column: 4/7;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+a .resource {
+    width: 100%;
 }
 
 #main {
