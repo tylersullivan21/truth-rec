@@ -72,10 +72,13 @@ ul li a{
 .video-title{
     grid-column: 4/10;
 }
+.photo-title{
+    grid-column: 4/10;
+}
 
 /* video cards css starts here*/
 
-.card-container {
+.video-container {
     display: grid;
     padding: 1rem;
    grid-template-columns: repeat(12,1fr);
@@ -91,6 +94,10 @@ ul li a{
 }
 .shadow-text {
     padding: 5px;
+}
+.shadow-text p{
+    padding: 10px;
+    margin:0;
 }
 
 .bo-diddley{
@@ -116,6 +123,64 @@ ul li a{
     grid-row:2;
     grid-column: 8/10;;
     box-shadow:3px  5px 6px #ccc;
+}
+
+
+
+.photo-container {
+    display: grid;
+ padding: 1rem;
+   grid-template-columns: repeat(12,1fr);
+    grid-gap:10px;
+}
+.house{
+    grid-column: 4/5;
+}
+.second{
+    grid-column:5/6;
+}
+.horse {
+    grid-column: 6/7;
+    
+}
+.barn-house {
+    grid-column: 7/9;
+}
+
+/*SECOND ROW STARTS HERE*/
+.second-row-first-img{
+    grid-row: 2;
+    grid-column: 4/5;
+}
+.second-row-second-img{
+    grid-row: 2;
+    grid-column: 5/6;
+}
+.second-row-third-img{
+    grid-row: 2;
+    grid-column: 6/7;
+}
+.second-row-fourth-img{
+    grid-row: 2;
+    grid-column: 7/9;
+}
+
+/*THIRD ROW STARTS HERE*/
+.third-row-first-img{
+    grid-row: 3;
+    grid-column: 4/5;
+}
+.third-row-second-img{
+    grid-row: 3;
+    grid-column: 5/6;
+}
+.third-row-third-img{
+    grid-row: 3;
+    grid-column: 6/7;
+}
+.third-row-fourth-img{
+    grid-row: 3;
+    grid-column: 7/9;
 }
 
 
