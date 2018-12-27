@@ -9,11 +9,25 @@ body{
     grid-template-columns: repeat(12, 1fr);
 }
 .nav {
-    grid-column:1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 87px;
+    grid-column: 1/13;
+    background-color: #00283C;
 }
 
-nav {
-    grid-column: 4/6;
+.logo{
+    grid-column: 3/5;
+}
+a img {
+   position: relative;
+    max-height: 134px;
+}
+.elements {
+    font-size: 24px;
+    grid-column: 6/12;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a {
@@ -26,31 +40,14 @@ ul {
 ul li {
     display: inline;
 }
-#logo {
-    padding: 15px;
-    margin-left: 15px;
-    background-color: #f3f1c7;
-    color: #298383;
-    text-align: center;
-    font-weight: bold;
-    display: inline-block;
-}
+
 ul li a{
     color: #fff;
     padding: 15px;
     
 }
 
-.menu {
-    padding: 10px;
-    font-size: 20px;
-}
-header{
-    background-color: #00283C;
-    display: grid;
-    
-    
-}
+
 #main-content .title {
     margin-bottom: 35px;
     font-size: 40px;

@@ -65,6 +65,36 @@ ul li a{
     padding: 15px;
     
 }
+.breadcrumb {
+    grid-column: 4/10;
+    padding: 0;
+    margin: 0;
+}
+.bread-link {
+    color: navy;
+}
+ul.breadcrumb {
+    
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+  
+    color: black;
+    content: ">\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
 
 .media-title{
     grid-column: 4/10;
@@ -98,7 +128,8 @@ ul li a{
 
 .shadow{
     grid-column: 4/6;
-    box-shadow:3px 0px#ccc;
+    box-shadow:3px  5px 6px #ccc;
+    width: 100%;
 }
 .shadow-text {
     padding: 5px;
@@ -111,26 +142,31 @@ ul li a{
 .bo-diddley{
     grid-column: 6/8;
     box-shadow:3px  5px 6px #ccc;
+    width: 100%;
 }
 
 .baseball{
     grid-column: 8/10;
     box-shadow:3px  5px 6px #ccc;
+    width: 100%;
 }
 .verdell-washington{
     grid-row:2;
     grid-column: 4/6;
     box-shadow:3px  5px 6px #ccc;
+    width: 100%;
 }
 .freedom-ride{
     grid-row:2;
     grid-column: 6/8;;
     box-shadow:3px  5px 6px #ccc;
+    width: 100%;
 }
 .cotton-club {
     grid-row:2;
     grid-column: 8/10;;
     box-shadow:3px  5px 6px #ccc;
+    width: 100%;
 }
 
 
